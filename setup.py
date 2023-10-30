@@ -1,8 +1,10 @@
+#works only of linux or git bash terminal
+
 echo [$(date)]: "START"
 
 echo [$(date)]: "creating env with python 3.8 version"
 
-create --prefix ./env python=3.8 -y
+conda create --prefix ./env python=3.8 -y
 
 echo [$(date)]: "activating the environment"
 
