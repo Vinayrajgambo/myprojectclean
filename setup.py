@@ -1,17 +1,9 @@
-#works only of linux or git bash terminal
+from setuptools import find_packages,setup
 
-echo [$(date)]: "START"
-
-echo [$(date)]: "creating env with python 3.8 version"
-
-conda create --prefix ./env python=3.8 -y
-
-echo [$(date)]: "activating the environment"
-
-source activate ./venv
-
-echo [$(date)]: "installing the dev requirements"
-
-pip install -r requirements.txt
-
-echo [$(date)]: "END"
+setup(
+    name="DimondPricePrediction",
+    version="0.0.1",
+    author="vinayraj",
+    author_email="vinay.raj@gmail.com",
+    packages=find_packages()
+)
