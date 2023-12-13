@@ -5,6 +5,6 @@ setup(
     version="0.0.1",
     author="vinayraj",
     author_email="vinay.raj@gmail.com",
-    install_requires=["scikit-learn","pandas","numpy","seaborn","scipy"]
+    install_requires=["scikit-learn","pandas","numpy","seaborn","scipy"],
     packages=find_packages()
 )
